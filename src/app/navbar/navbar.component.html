@@ -1,0 +1,24 @@
+<mat-toolbar>
+    <mat-menu #appMenu="matMenu">
+        <ng-template matMenuContent let-name="name">
+          <button mat-menu-item routerLink="/overview">Overview</button>
+          <button mat-menu-item routerLink="/projects">Projects</button>
+          <button mat-menu-item routerLink="/skills">Skills</button>
+          <button mat-menu-item routerLink="/trainings">Trainings</button>
+        </ng-template>
+    </mat-menu>
+      
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+    
+    <span class="spacer"></span>
+    <span>Mathieu Mussot</span>
+    <span class="spacer"></span>
+    <button mat-icon-button class="icon favorite-icon" aria-label="icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="icon" aria-label="icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+</mat-toolbar>
