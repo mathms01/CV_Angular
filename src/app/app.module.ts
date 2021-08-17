@@ -14,6 +14,7 @@ import {MatCardModule} from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OverviewCardComponent } from './overview-card/overview-card.component';
 import { AppRoutingModule } from './app-routing.module';
+import { OverviewCardListComponent } from './overview-card-list/overview-card-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app-routing.module';
     TrainingsComponent,
     ProjectsComponent,
     NavbarComponent,
-    OverviewCardComponent
+    OverviewCardComponent,
+    OverviewCardListComponent
   ],
   imports: [
     BrowserModule,

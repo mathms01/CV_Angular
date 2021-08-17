@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { OverviewCardComponent } from '../overview-card/overview-card.component';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-overview',
@@ -8,9 +7,9 @@ import { OverviewCardComponent } from '../overview-card/overview-card.component'
 })
 export class OverviewComponent implements OnInit {
 
-  cards = [{"hello":"world"},{"hello":"world"},{"hello":"world"}];
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
   }
