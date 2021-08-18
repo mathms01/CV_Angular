@@ -18,6 +18,7 @@ import { OverviewCardListComponent } from './overview-card-list/overview-card-li
 import { TrainingCardListComponent } from './training-card-list/training-card-list.component';
 import { SkillCardListComponent } from './skill-card-list/skill-card-list.component';
 import { ProjectCardListComponent } from './project-card-list/project-card-list.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ProjectCardListComponent } from './project-card-list/project-card-list.
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
+    MatGridListModule,
     BrowserAnimationsModule,
     MatCardModule,
     AppRoutingModule,

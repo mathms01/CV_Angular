@@ -1,4 +1,8 @@
-<div>
-    <card *ngFor="let c of cards" [card]="c"></card>
-</div>
+<mat-grid-list cols="4" gutterSize="5px" >
+    <mat-grid-tile *ngFor="let c of cards"
+    [colspan]="2"
+    [rowspan]="2">
+        <card [card]="c"></card>
+    </mat-grid-tile>
+</mat-grid-list>
 

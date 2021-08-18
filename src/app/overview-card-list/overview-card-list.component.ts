@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OverviewCard } from '../overview-card/overview-card';
 import { CARDSPROJECTS, CARDSSKILLS, CARDSTRAININGS } from '../overview-card/overview-cards';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-overview-card-list',

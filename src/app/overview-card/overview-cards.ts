@@ -8,11 +8,10 @@ export const CARDSSKILLS: OverviewCard[] = [
 ];
 
 export const CARDSPROJECTS: OverviewCard[] = [
-  { title: "hello", subtitle: 'Dr Nice', description : "test", tags:["1","2","3"], picture:"https://material.angular.io/assets/img/examples/shiba2.jpg"},
-  { title: "hello", subtitle: 'Dr Nice', description : "test", tags:["1","2","3"], picture:"https://material.angular.io/assets/img/examples/shiba2.jpg"},
-  { title: "hello", subtitle: 'Dr Nice', description : "test", tags:["1","2","3"], picture:"https://material.angular.io/assets/img/examples/shiba2.jpg"},
-  { title: "hello", subtitle: 'Dr Nice', description : "test", tags:["1","2","3"], picture:"https://material.angular.io/assets/img/examples/shiba2.jpg"},
-  { title: "hello", subtitle: 'Dr Nice', description : "test", tags:["1","2","3"], picture:"https://material.angular.io/assets/img/examples/shiba2.jpg"},
+  { title: "Développement Logiciel", subtitle: 'C++, C, C#, Java, Python, Android Studio, Dotnet', description : "Candy Crush, QR Code App, Script de vie d’une fourmilière, Alarme connectée, 2048", tags:["1","2","3"], picture:"https://www.kindpng.com/picc/m/78-786210_computer-science-and-engineering-logo-hd-png-download.png"},
+  { title: "Base de Données", subtitle: 'MySQL, PHPMyAdmin, SQLite, MongoDB, PostgreSQL, FireBase', description : "QCM, Architectures en saas, Applications avec authentification, Gestion de fluxs comptables, normalisation et exploitation de la donnée", tags:["1","2","3"], picture:"https://thumbs.dreamstime.com/b/database-icon-logo-modern-line-style-high-quality-black-outline-pictogram-web-site-design-mobile-apps-vector-81369618.jpg"},
+  { title: "Développement Web", subtitle: 'CSS, HTML, PHP, IONIC, CakePHP, JavaScript, Kotlin', description : "Création de Sites Internet, Restauration de Sites Internet, Blog, Générateur de mots de passe", tags:["1","2","3"], picture:"https://upload.itg.fr/20180810144621/programmeur-informatique-developpeur.jpg"},
+  { title: "Logiciel Maîtrisés", subtitle: 'Gimp, InkScape, Photoshop, Word, PowerPoint, Excel, Sony Vegas Pro', description : "Photomontage, Logo, Bannières, Publicités, Affiches, Vidéos", tags:["1","2","3"], picture:"https://www.nicepng.com/png/detail/119-1192437_software-development-desktop-application-development-icon.png"},
 ];
 
 export const CARDSTRAININGS: OverviewCard[] = [
