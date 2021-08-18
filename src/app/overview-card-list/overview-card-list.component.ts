@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OverviewCard } from '../overview-card/overview-card';
-import { CARDS } from '../overview-card/overview-cards';
+import { CARDSPROJECTS, CARDSSKILLS, CARDSTRAININGS } from '../overview-card/overview-cards';
 
 @Component({
   selector: 'app-overview-card-list',
@@ -12,7 +12,9 @@ export class OverviewCardListComponent implements OnInit {
   cards: OverviewCard[];
 
   constructor() {
-    this.cards = CARDS; 
+    this.cards = CARDSPROJECTS;
+    this.cards = this.cards.concat(CARDSSKILLS);
+    this.cards = this.cards.concat(CARDSTRAININGS);
    }
 
   ngOnInit(): void {

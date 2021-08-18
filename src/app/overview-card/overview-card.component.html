@@ -1,13 +1,13 @@
 <mat-card class="card">
     <mat-card-header>
-      <div mat-card-avatar class="header-image"></div>
       <mat-card-title>{{overviewCard.title}}</mat-card-title>
       <mat-card-subtitle>{{overviewCard.subtitle}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <img mat-card-image [src]="overviewCard.picture" alt="Photo of a Shiba Inu">
     <mat-card-content>
       <p>
         {{overviewCard.description}}
       </p>
     </mat-card-content>
+    <span *ngFor="let tag of overviewCard.tags" class="badge">{{tag}}</span>
   </mat-card>

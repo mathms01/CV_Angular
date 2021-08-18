@@ -4,13 +4,13 @@ import { OverviewCard } from './overview-card';
 @Component({
   selector: 'card',
   templateUrl: './overview-card.component.html',
-  styleUrls: ['./overview-card.component.css']
+  styleUrls: ['./overview-card.component.css', "../app.component.css"]
 })
 export class OverviewCardComponent implements OnInit {
-  @Input('card') overviewCard: OverviewCard;
+  @Input('card') overviewCard: OverviewCard = new OverviewCard('hey', 'hey', 'hey', ['hey', 'hey'], 'hey');
 
-  constructor(@Inject(String) title : string, @Inject(String) subtitle : string, @Inject(String) description : string, @Inject(String) tags : string[]) { 
-    this.overviewCard = new OverviewCard(title, subtitle, description, tags);
+  constructor() { 
+
   }
 
   ngOnInit(): void {

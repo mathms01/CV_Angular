@@ -15,6 +15,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OverviewCardComponent } from './overview-card/overview-card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { OverviewCardListComponent } from './overview-card-list/overview-card-list.component';
+import { TrainingCardListComponent } from './training-card-list/training-card-list.component';
+import { SkillCardListComponent } from './skill-card-list/skill-card-list.component';
+import { ProjectCardListComponent } from './project-card-list/project-card-list.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { OverviewCardListComponent } from './overview-card-list/overview-card-li
     ProjectsComponent,
     NavbarComponent,
     OverviewCardComponent,
-    OverviewCardListComponent
+    OverviewCardListComponent,
+    TrainingCardListComponent,
+    SkillCardListComponent,
+    ProjectCardListComponent
   ],
   imports: [
     BrowserModule,
